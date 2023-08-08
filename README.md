@@ -4,7 +4,7 @@
 
 Welcome to the Unnormal Digital Design Website repository! This project showcases the innovative and creative world of digital design. Whether you're a designer, developer, or simply someone interested in the cutting-edge of design, this website has something for you.
 
-To experience the UnNormal website, simply visit [CuppaCuppa](https://tsholo93.github.io/CuppaCuppa/).
+To experience the UnNormal website, simply visit [UnNormal](https://tsholo93.github.io/UnNormal/).
 
 ## How It Was Made
 
@@ -17,7 +17,7 @@ UnNormal Digital Design is a platform dedicated to exploring and celebrating the
 ## Installation
 
 ```bash
-$ git clone https://github.com/tsholo93/CuppaCuppa.git
+$ git clone https://github.com/tsholo93/UnNormal.git
 $ cd your-project
 $ npm install
 ```
