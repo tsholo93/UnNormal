@@ -1,0 +1,40 @@
+.digital-blog .digital-cta {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.digital-blog .digital-cta a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #0D65D9 !important;
+  color: #F2F2F2 !important;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  cursor: pointer !important;
+}
+
+.digital-blog .digital-cta a:link,
+.digital-blog .digital-cta a:visited {
+  background: #0D65D9 !important;
+  color: #F2F2F2 !important;
+}
+
+.digital-blog .digital-cta a:focus,
+.digital-blog .digital-cta a:hover,
+.digital-blog .digital-cta a:active {
+  padding: 0 3rem;
+  font-weight: 700;
+}
+
+
+@media all and (min-width: 992px) {
+  .digital-blogparagraph {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .digital-blogcard {
+    min-height: 75vh;
+  }
+}

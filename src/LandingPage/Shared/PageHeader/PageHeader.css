@@ -1,0 +1,49 @@
+.UnNormal-page-header {
+  background: rgba(0, 0, 0, 0.1);
+  color: #F2F2F2;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  position: absolute;
+  z-index: 6000;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.UnNormal-page-header .brand-logo {
+  flex: 1 1 50%;
+}
+
+.UnNormal-page-header .brand-logo > a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: #F2F2F2;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.UnNormal-page-header .brand-logo > a:link,
+.UnNormal-page-header .brand-logo > a:visited {
+  color: #F2F2F2;
+}
+
+.UnNormal-page-header .brand-logo > a:focus {
+  outline: 1px dotted #F2F2F2;
+}
+.UnNormal-page-header .brand-logo > a:hover {
+
+}
+.UnNormal-page-header .brand-logo > a:active {
+  color: #F2F2F2;
+}
+
+@media all and (min-width: 768px) {
+  .UnNormal-page-header .brand-logo {
+    flex: 1 1 30%;
+  }
+}

@@ -1,0 +1,23 @@
+
+.digital-intro p,
+.digital-intro h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.digital-intro h2 {
+  color: #F2F2F2 !important;
+}
+
+.digital-intro p {
+  color: #8C8C8C !important;
+}
+
+@media all and (min-width: 992px) {
+  .digital-intro p,
+  .digital-intro h2 {
+    font-size: 1.8rem;
+  }
+}
+
+

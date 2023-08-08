@@ -1,0 +1,111 @@
+.digital-buybanner {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  min-height: 70vh;
+  background: #0A0B0D;
+  color: #F2F2F2;
+  text-align: center;
+}
+
+.digital-buybanner p,
+.digital-buybanner h2 {
+  color: #F2F2F2 !important;
+}
+
+.digital-buybanner h2 {
+  font-weight: 700;
+}
+
+.digital-buybanner strong {
+  color: #F2F2F2 !important;
+  font-size: 1.2rem;
+}
+
+.digital-buybanner .heading {
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.digital-buybanner .digital-cta a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #0D65D9 !important;
+  color: #0A0B0D !important;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  cursor: pointer !important;
+}
+
+.digital-buybanner .digital-cta a:link,
+.digital-buybanner .digital-cta a:visited {
+  background: #5C9DF2 !important;
+  color: #0A0B0D !important;
+}
+
+.digital-buybanner .digital-cta a:focus,
+.digital-buybanner .digital-cta a:hover,
+.digital-buybanner .digital-cta a:active {
+  font-weight: 700;
+  padding: 0 1rem;
+}
+
+
+.digital-buybanner .digital-input {
+  font-size: 1.2rem;
+  border: 1px solid #5C9DF2;
+  background: #0A0B0D;
+  color: #F2F2F2;
+}
+
+.digital-buybanner .digital-input:focus {
+  outline: 1px solid #5C9DF2;
+}
+
+
+@media all and (min-width: 576px) {
+  .digital-buybanner .heading {
+    max-width: 70%;
+    font-size: 2.5rem;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .digital-buybanner .heading {
+    font-size: 3rem;
+  }
+
+  .digital-buybanner .digital-form {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .digital-buybanner .digital-form {
+    width: 70%;
+  }
+
+  .digital-buybanner p {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .digital-buybanner .heading {
+    font-size: 4rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .digital-buybanner .digital-form,
+  .digital-buybanner p {
+    max-width: 50%;
+    width: 50%;
+  }
+
+  .digital-buybanner .digital-form {
+    width: 55%;
+  }
+}

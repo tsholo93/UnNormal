@@ -1,0 +1,83 @@
+.UnNormal-works {
+  min-height: 40vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.UnNormal-grid {
+  background: #0B0E12;
+}
+
+.UnNormal-grid a {
+  display: block;
+}
+
+
+.UnNormal-grid a,
+.UnNormal-grid figure {
+  min-height: 40vh;
+  height: 40vh;
+}
+
+
+.UnNormal-grid figure > img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.UnNormal-grid a:hover {
+  background: rgba(0, 0, 0, 1);
+}
+
+.UnNormal-work-buttons {
+  display: none;
+}
+
+
+
+@media all and (min-width: 768px) {
+  .UnNormal-grid a,
+  .UnNormal-grid figure {
+    min-height: 50vh;
+    height: 50vh;
+  }
+
+  .UnNormal-works {
+    min-height: 30vh;
+  }
+
+  .UnNormal-work-buttons {
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .UnNormal-work-button {
+    width: 30%;
+    flex: 0 0 30%;
+    display: inline-block;
+    background: none;
+    border: none;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .UnNormal-work-button.active {
+    color: #364559;
+  }
+
+}
+
+@media all and (min-width: 992px) {
+  .UnNormal-work-button {
+    width: 15%;
+    flex: 0 0 15%;
+  }
+}

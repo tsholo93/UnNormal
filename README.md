@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# UnNormal Studio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Name: "UnNormal Digital Design"
 
-## Available Scripts
+Welcome to the Unnormal Digital Design Website repository! This project showcases the innovative and creative world of digital design. Whether you're a designer, developer, or simply someone interested in the cutting-edge of design, this website has something for you.
 
-In the project directory, you can run:
+To experience the UnNormal website, simply visit [CuppaCuppa](https://tsholo93.github.io/CuppaCuppa/).
 
-### `npm start`
+## How It Was Made
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ **Front-end Development**: Using modern web development technologies like HTML, CSS, JavaScript and Reactjs, the front-end of the website was crafted to ensure an intuitive and responsive user interface. Special attention was given to optimizing the website for seamless browsing on both desktop and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Why UnNormal?
 
-### `npm test`
+UnNormal Digital Design is a platform dedicated to exploring and celebrating the unconventional, avant-garde, and boundary-pushing aspects of digital design. Our goal is to inspire and challenge designers to break free from conventional norms and create truly unique and unforgettable user experiences.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+```bash
+$ git clone https://github.com/tsholo93/CuppaCuppa.git
+$ cd your-project
+$ npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The UnNormal website is open-source and available under the MIT License. You are free to use, modify, and distribute the code as per the terms of the license.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for your interest in the Unnormal Digital Design Website! We hope this platform inspires you to break free from the ordinary and explore the extraordinary in digital design.

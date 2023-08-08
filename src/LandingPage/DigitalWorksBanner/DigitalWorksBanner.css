@@ -1,0 +1,58 @@
+.digital-worksbanner {
+  min-height: 90vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background: #0A0B0D;
+  color: #F2F2F2 !important;
+}
+
+.digital-worksbanner h2,
+.digital-worksbanner p {
+  color: #F2F2F2 !important;
+}
+
+.digital-worksbanner h2 {
+  font-weight: 700;
+}
+
+
+.digital-worksbanner .banner {
+  border-bottom: 1px solid #364559;
+}
+
+.digital-worksbanner .paragraph {
+  font-size: 1.4rem;
+}
+
+
+.stat-item .number {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  color: #5C9DF2 !important;
+}
+
+.stat-item .name {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media all and (min-width: 576px) {
+  .stat-item .number {
+    font-size: 4rem;
+  }
+
+  .stat-item .name {
+    font-size: 1.2rem;
+  }
+}
+
+
+@media all and (min-width: 1200px) {
+  .digital-worksbanner .paragraph {
+    font-size: 1.8rem;
+  }
+}

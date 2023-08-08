@@ -1,0 +1,24 @@
+.digital-img-cta figure {
+  overflow: hidden;
+}
+
+.digital-img-cta figure > img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media all and (min-width: 992px) {
+  .digital-img-cta figure {
+    max-height: 80vh;
+  }
+  .digital-img-cta figure > img {
+    object-position: 50% -45px;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .digital-img-cta figure > img {
+    object-position: 50% -90px;
+  }
+}
