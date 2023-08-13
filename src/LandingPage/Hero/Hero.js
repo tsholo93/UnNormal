@@ -10,7 +10,7 @@ function Hero(){
     }}>
 
       <div id="video-container">
-        <video muted={true} autoPlay={true} loop={true}>
+        <video muted={true} autoPlay={true} loop={true} po>
           <source src={videoWebm} type="video/webm" />
           <source src={video} type="video/mp4"/>
         </video>
